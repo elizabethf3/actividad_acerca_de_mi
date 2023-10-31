@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Mi</title>
+    <link rel="stylesheet" type="text/scc" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Acerca de Mi</h1>
+    </header>
+
+    <section>
+        <div id="info-personal">
+            <h2>Informacion Personal</h2>
+            <p>Nombre: Elizabeth Ruth Flores</p>
+            <p>Edad: 29 años</p>
+            <p>Pofesion: Desarrolladora Frontend</p>
+        </div>
+
+        <div id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript basico</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        Copyright (c) 2023. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
+
+
+header{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+#info-personal, #habilidades{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#info-personal h2, #habilidades h2{
+    font-size: 24px;
+}
+
+#habilidades ul{
+    list-style-type: square;
+}
+
+footer{
+    background-color: #f1f1f1;
+    color:  #333;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    header, #info-personal, #habilidades {
+        padding: 10px;
+}
+
+h1, h2 {
+    font-size: 18px;
+    }
+}
+@media only sceen and (min-width: 601px) and (max-width: 1024px){
+    header, #info-personal, #habiidades {
+        padding: 20px;
+
+    }
+}
+
+h1, h2 {
+    font-size: 22px;
+}
+
+@media only screen and (min-width: 1025px) {
+    header, #info-personal, #habilidades {
+        padding: 30px;
+    }
+}
+ 
+h1, h2 {
+    font-size: 28px;
+}
+
